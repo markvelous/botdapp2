@@ -7,6 +7,9 @@ Creating an app that allows any user to log in through Metamask to mint an NFT
 ### npm start 
 
 Access the app on http://localhost:3000
+
+![github-small](src/app.png)
+
 Connect Metamask wallet
 
 Enter location of digital asset to be minted as ERC721
