@@ -31,7 +31,7 @@ export const connectWallet = async () => {
           <p>
             {" "}
             🦊{" "}
-            <a target="_blank" href={`https://metamask.io/download.html`}>
+            <a target="_blank" href="https://metamask.io/download.html" rel="noreferrer">
             You have to install Metamask in the browser.
             </a>
           </p>
@@ -72,7 +72,7 @@ export const getCurrentWalletConnected = async () => {
           <p>
             {" "}
             🦊{" "}
-            <a target="_blank" href={`https://metamask.io/download.html`}>
+            <a target="_blank" href="https://metamask.io/download.html" rel="noopener noreferrer">
               You have to install Metamask in the browser.
             </a>
           </p>
@@ -82,15 +82,17 @@ export const getCurrentWalletConnected = async () => {
   }
 };
 
+/*
 async function loadContract() {
   return new web3.eth.Contract(contractABI, contractAddress);
 }
+*/
 
 export const mintNFT = async (url, name, description) => {
-  if (url.trim() == "" || name.trim() == "" || description.trim() == "") {
+  if (url.trim() === "" || name.trim() === "" || description.trim() === "") {
     return {
       success: false,
-      status: "❗Please make sure all fields are completed before minting.",
+      status: "Please make sure all fields are completed before minting!",
     };
   }
 
