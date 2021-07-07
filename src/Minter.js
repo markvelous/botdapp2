@@ -13,7 +13,7 @@ const Minter = (props) => {
   const [description, setDescription] = useState("");
   const [url, setURL] = useState("");
 
-  useEffect(async () => {
+  useEffect(() => async () => {
     const { address, status } = await getCurrentWalletConnected();
 
     setWallet(address);
@@ -100,7 +100,7 @@ const Minter = (props) => {
         />
       </form>
       <button id="mintButton" onClick={onMintPressed}>
-      🔥 Mint my unique Marköbot
+      🔥 Mint my unique NFT
       </button>
       <p id="status">
         {status}
