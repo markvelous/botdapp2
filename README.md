@@ -15,4 +15,7 @@ Connect Metamask wallet
 Enter location of digital asset to be minted as ERC721
 Enter name and metadata for the NFT, and mint
 
-### The app runs on Rinkeby and the IPFS is published on Pinata 
+### `View the [smart contract](https://rinkeby.etherscan.io/address/0x9049a2c93e7cf4d5aaf2baa9e1f404a0d766de1f)` on Rinkeby Etherscan
+
+
+The IPFS is published on Pinata and collections are accessible in OpenSea Rinkeby using owner's account 
