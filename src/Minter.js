@@ -74,33 +74,37 @@ const Minter = (props) => {
         )}
       </button>
 
+      <button id="smart contract" onClick="location.href='https://rinkeby.etherscan.io/address/0x9049a2C93E7cf4d5aaF2baA9e1f404a0d766de1F'">
+        <a href="https://rinkeby.etherscan.io/address/0x9049a2C93E7cf4d5aaF2baA9e1f404a0d766de1F" target="_blank" rel="noreferrer">View contract on Rinkeby</a>
+      </button>
+
       <br></br>
       <h1 id="title">Marköbot 🤖 NFT Minter</h1>
       <p>
-        Add your digital asset's link, name and description, <br></br>then press "Mint my Unique Marköbot" to create your NFT
+        Add your digital asset's link, name and description, <br></br>then click "Mint my NFT" to mint it
       </p>
       <form>
-        <h2>Location of the digital asset (IPFS): </h2>
+        <h2>Location of the digital asset on Pinata (IPFS): </h2>
         <input
           type="text"
-          placeholder="Where it is located, e.g. https://gateway.pinata.cloud/ipfs/<hash>/<name.ext>"
+          placeholder="e.g. https://gateway.pinata.cloud/ipfs/<  ID  >/<  FILE.EXT  >"
           onChange={(event) => setURL(event.target.value)}
         />
-        <h2>Name of the NFT: </h2>
+        <h2>Cool NFT name: </h2>
         <input
           type="text"
-          placeholder="e.g. My first NFT!"
+          placeholder="e.g. My Very First NFT!"
           onChange={(event) => setName(event.target.value)}
         />
-        <h2>Metadata of the NFT: </h2>
+        <h2>Unique NFT identity (i.e. metadata): </h2>
         <input
           type="text"
-          placeholder="e.g. Now to sell it to a whale ;)"
+          placeholder="e.g. Deadly curves, soft and glides like butter on a hot saucepan"
           onChange={(event) => setDescription(event.target.value)}
         />
       </form>
       <button id="mintButton" onClick={onMintPressed}>
-      🔥 Mint my unique NFT
+      🔥 Mint my NFT!
       </button>
       <p id="status">
         {status}
