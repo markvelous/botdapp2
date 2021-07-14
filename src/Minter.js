@@ -75,14 +75,19 @@ const Minter = (props) => {
       </button>
 
       <button id="smart contract" onClick="location.href='https://rinkeby.etherscan.io/address/0x9049a2C93E7cf4d5aaF2baA9e1f404a0d766de1F'">
-        <a href="https://rinkeby.etherscan.io/address/0x9049a2C93E7cf4d5aaF2baA9e1f404a0d766de1F" target="_blank" rel="noreferrer">View contract on Rinkeby</a>
+        <a href="https://rinkeby.etherscan.io/address/0x9049a2C93E7cf4d5aaF2baA9e1f404a0d766de1F" target="_blank" rel="noreferrer">View NFT contract on Rinkeby</a>
       </button>
 
       <br></br>
       <h1 id="title">Marköbot 🤖 NFT Minter</h1>
+      <br></br>
       <p>
-        Add your digital asset's link, name and description, <br></br>then click "Mint my NFT" to mint it
+        Mint your NFT in 3 steps:<br></br>
+        1. Input the URL, name and description of your digital asset<br></br>
+        2. Click on "Mint my NFT"<br></br>
+        3. View your transaction on Rinkeby Etherscan<br></br> 
       </p>
+      <br></br>
       <form>
         <h2>Location of the digital asset on Pinata (IPFS): </h2>
         <input
