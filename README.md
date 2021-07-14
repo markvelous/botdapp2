@@ -17,9 +17,11 @@ Update the address in /src/util/interact.js (line 7)
 
 Create a dotenv file as follows:
 
-REACT_APP_PINATA_KEY = [secret]
-REACT_APP_PINATA_SECRET = [secret]
-REACT_APP_ALCHEMY_KEY = https://eth-rinkeby.alchemyapi.io/v2/[secret]
+    REACT_APP_PINATA_KEY = [secret]
+
+    REACT_APP_PINATA_SECRET = [secret]
+
+    REACT_APP_ALCHEMY_KEY = https://eth-rinkeby.alchemyapi.io/v2/[secret]
 
 
 ## To initiate
