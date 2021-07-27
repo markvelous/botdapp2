@@ -92,7 +92,7 @@ const Minter = (props) => {
         <h2>Location of the digital asset on Pinata (IPFS): </h2>
         <input
           type="text"
-          placeholder="e.g. https://gateway.pinata.cloud/ipfs/<  ID  >/<  FILE.EXT  >"
+          placeholder="e.g. https://gateway.pinata.cloud/ipfs/< CID >/< file.extension >"
           onChange={(event) => setURL(event.target.value)}
         />
         <h2>Cool NFT name: </h2>
