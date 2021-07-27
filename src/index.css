@@ -39,7 +39,7 @@ input:focus {
 }
 
 button {
-  padding: 9px 16px;
+  padding: 9px 20px;
   max-height: 40px;
   border-color: #767985;
   color: #961f78;
@@ -72,7 +72,7 @@ button {
   text-align: right;
   float:right;
   margin-bottom: 50px;
-  line-height: 16px;
+  line-height: 20px;
 }
 
 #mintButton {
