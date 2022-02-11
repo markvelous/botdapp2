@@ -1,7 +1,5 @@
 # Markobot botapp2
 
-P7210027 Mark Tan SGBT4 Blockchain Beginner Course Project
-
 Creating an app that allows any user to log in through Metamask to mint an NFT
 
 
